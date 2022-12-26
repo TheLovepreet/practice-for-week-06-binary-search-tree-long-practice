@@ -437,12 +437,6 @@ describe('Binary Tree Practice', () => {
 
     });
 
-    it('returns undefined if the node cannot be found', function() {
-
-      expect(deleteNodeBST(bstRoot, 9)).to.equal(undefined);
-
-    });
-
   });
 
 });
